@@ -60,7 +60,8 @@ Docker version - 24.0.7
 
 Run locally: 
 ```bash
-git clone https://github.com/devzero-inc/samples.git
+git clone https://github.com/devzero-inc/internal-employee-directory.git
+cd internal-employee-directory
 docker compose up -d
 ```
 Backend will be running on ```PORT:8000``` (you can test it by going to localhost:8000/test) -> [http://localhost:8000/](http://localhost:8000/)
