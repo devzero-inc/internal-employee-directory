@@ -1,4 +1,4 @@
-# Internal Employee Directory ![ workflow](https://github.com/devzero-inc/samples/actions/workflows/main.yml/badge.svg)
+# Internal Employee Directory ![ workflow](https://github.com/devzero-inc/internal-employee-directory/actions/workflows/main.yml/badge.svg)
 
 ## Overview
 This Internal Employee Directory is a modern, full-stack web application designed to manage and display employee information within an organization. It leverages a MongoDB database for efficient data storage, Node.js and Express.js for a robust server-side environment, and React.js with Tailwind CSS for an interactive and responsive client-side experience.
