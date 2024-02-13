@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  # MONGO_DB service
+  mongo_db:
+    container_name: db_container
+    image: mongo:latest
+    restart: always
+    volumes:
+      - mongo_db:/data/db
+
+  # Node API service
+  api: 
+    build: ./backend
+    ports: 
+      - 8000:8000
+    environment:
+      MONGO_URI: mongodb://mongo_db:27017/employeeDB
+      PORT: 8000
+    depends_on:
+      - mongo_db
+
+  # React Frontend service
+  front_end:
+    build: ./frontend
+    ports:
+      - 5173:5173
+    depends_on:
+      - api
+
+volumes:
+  mongo_db: {}

@@ -1,0 +1,44 @@
+{
+    "name": "Sample Org",
+    "position": "",
+    "children": [
+        {
+            "name": "Alex Johnson",
+            "position": "CEO",
+            "children": [
+                {
+                    "name": "Daniel Smith",
+                    "position": "Data Scientist",
+                    "children": [
+                        {
+                            "name": "Emily Clark",
+                            "position": "Product Manager"
+                        },
+                        {
+                            "name": "Lucas Brown",
+                            "position": "Data Analyst"
+                        }
+                    ]
+                },
+                {
+                    "name": "Michael Turner",
+                    "position": "Software Architect"
+                },
+                {
+                    "name": "Sarah Miller",
+                    "position": "Head of Operations",
+                    "children": [
+                        {
+                            "name": "James Wilson",
+                            "position": "Operations Manager"
+                        },
+                        {
+                            "name": "Isabella Martinez",
+                            "position": "Logistics Coordinator"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
