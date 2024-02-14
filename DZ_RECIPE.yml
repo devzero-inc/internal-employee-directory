@@ -24,3 +24,12 @@ compute:
 network:
   category: container
   network_name: default
+description: A modern, full-stack web application designed to manage and display employee information
+display_name: Internal Employee Directory
+tags:
+- MongoDB
+- Node.js
+- Express.js
+- Mongoose ODM
+- React
+- Tailwind CSS
