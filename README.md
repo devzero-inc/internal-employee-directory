@@ -62,12 +62,12 @@ Run locally:
 ```bash
 git clone https://github.com/devzero-inc/internal-employee-directory.git
 cd internal-employee-directory
-docker compose up -d
+docker compose up
 ```
 Backend will be running on ```PORT:8000``` (you can test it by going to localhost:8000/test) -> [http://localhost:8000/](http://localhost:8000/)
 
-Frontend will be running on ```PORT:5173``` -> [http://localhost:5173/](http://localhost:5173/)
+Frontend will be running on ```PORT:4173``` -> [http://localhost:4173/](http://localhost:4173/)
 
-Now just go to [http://localhost:5173/](http://localhost:5173/) and explore the application.
+Now just go to [http://localhost:4173/](http://localhost:4173/) and explore the application.
 
 
