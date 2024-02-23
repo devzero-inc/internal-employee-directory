@@ -2,3 +2,10 @@
 Dockerfile
 .dockerignore
 docker-compose.yml
+./tests
+./dist
+.babelrc
+.eslintrc.cjs
+.gitignore
+.jest.config.cjs
+.README.md

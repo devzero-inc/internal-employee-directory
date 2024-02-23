@@ -4,10 +4,10 @@ WORKDIR /front/src/app
 
 COPY package*.json .
 
-RUN npm ci
+RUN npm install --omit=dev
 
 COPY . .
 
-EXPOSE 5173
+EXPOSE 4173
 
-CMD ["npm", "run", "dev", "--host"]
+CMD ["npm", "run", "start"]
